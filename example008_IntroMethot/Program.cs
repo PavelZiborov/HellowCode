@@ -5,6 +5,7 @@
     if (arg3 > result) result = arg3;
     return result;
 }
+
 int a1 = 151;
 int b1 = 21;
 int c1 = 39;
@@ -22,6 +23,7 @@ int c3 = 33;
 // int max = Max(max1, max2, max3);
 
 int max = Max(Max(a1, b1, c1),Max(a2, b2, c2),Max(a3, b3, c3));
+
 /*
 if (b1 > max) max = b1;
 if (c1 > max) max = c1;
